@@ -30,3 +30,6 @@ class VectorDatabaseManager:
             query_texts=query_texts,
             n_results=n_results
         )
+
+# 【核心桥梁】在此处直接实例化管理器，方便其他文件直接 import 共享同一个数据库连接
+db_manager = VectorDatabaseManager()

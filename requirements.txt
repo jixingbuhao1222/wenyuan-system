@@ -3,3 +3,4 @@ pdfplumber
 chromadb
 openai
 scikit-learn
+psycopg2-binary
